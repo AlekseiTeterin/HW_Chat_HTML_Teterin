@@ -1,0 +1,62 @@
+html, body{
+    margin: 0;
+}
+body{
+    background-color: rgb(217, 208, 208);
+    height: 100%;
+}
+.vertical{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.first, .second{
+    margin-left: 5vw;
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+.second{
+    margin-left: 0;
+    margin-right: 5vw;
+}
+.nameL{
+    text-align: right;
+}
+.timeL{
+    text-align: right;
+    font-size: smaller;
+    color: rgb(181, 176, 170);
+}
+.nameR{ 
+    text-align: left;
+}
+.timeR{
+    text-align: left;
+    font-size: smaller;
+    color: rgb(181, 176, 170);
+}
+.message{
+    padding: 10px;
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+.left-message{
+    border-radius: 20px 20px 20px 0;
+    background-color: rgb(225, 119, 108);
+}
+.right-message{
+    border-radius: 20px 20px 0 20px;
+    background-color: rgb(100, 164, 224);
+}
